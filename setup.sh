@@ -1,5 +1,5 @@
 # Install zsh if not already installed (in PATH).
-which zsh || apt install zsh
+which zsh || sudo apt install zsh
 
 # Make zsh the default shell.
 chsh -s $(which zsh)
@@ -13,7 +13,7 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 # Clone zsh-autosuggestions external plugin, if not already installed
 ls /homes/jwl4017/.oh-my-zsh/custom/plugins/zsh-autosuggestions || git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # Clone zsh-syntx-highlighting external plugin, if not already installed
-ls /homes/jwl4017/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting || git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+ls /homes/jwl4017/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting ||  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # Overwrite .zshrc file with my preferred changes.
 wget https://raw.githubusercontent.com/jwblangley/zsh-setup/master/.zshrc -O "$HOME/.zshrc"
