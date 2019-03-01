@@ -2,4 +2,6 @@
 
 ## Installation
 Run the following command:
-    sh -c "$(wget https://raw.githubusercontent.com/jwblangley/zsh-setup/master/setup.sh -O -)"
+```shell
+sh -c "$(wget https://raw.githubusercontent.com/jwblangley/zsh-setup/master/setup.sh -O -)"
+```
