@@ -5,6 +5,11 @@ Run the following command:
 ```shell
 sh -c "$(wget https://raw.githubusercontent.com/jwblangley/zsh-setup/master/setup.sh -O -)"
 ```
+then log out and back in again.
+Open a new terminal session (now zsh) and run:
+```shell
+source "$HOME/.zshrc"
+```
 to do the following:
 * Install ZSH, if it is not already installed.
 * Make ZSH the default shell.
@@ -14,3 +19,9 @@ to do the following:
 * Clone zsh-syntx-highlighting external plugin, if not already installed. See https://github.com/zsh-users/zsh-autosuggestions for more details.
 * Get my preferred .zshrc file.
 * Apply changes.
+
+### Colour scheme in micro
+To set micro to use your standard shell colour scheme, run micro, press Ctrl+E to enter a new command and enter the command:
+```shell
+set colorscheme simple
+```
