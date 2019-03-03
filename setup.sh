@@ -8,7 +8,7 @@ chsh -s $(which zsh)
 which micro || snap install micro --classic
 
 # Download and run oh-my-zsh script.
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+ls $HOME/.oh-my-zsh || sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 # Clone zsh-autosuggestions external plugin, if not already installed
 ls $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions || git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
