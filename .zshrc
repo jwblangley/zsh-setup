@@ -98,4 +98,8 @@ export VISUAL="$EDITOR"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Open file with default handler.
 alias o="xdg-open"
+# Add confirmation message to rm.
+alias rm="rm -i"
