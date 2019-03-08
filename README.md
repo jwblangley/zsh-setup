@@ -20,8 +20,22 @@ to do the following:
 * Get my preferred .zshrc file.
 * Apply changes.
 
-### Colour scheme in micro
-To set micro to use your standard shell colour scheme, run micro, press Ctrl+E to enter a new command and enter the command:
+### Colour scheme in micro commands
+Run micro, press Ctrl+E to enter a command and enter the following:
+
+To set micro to use your standard shell colour scheme:
 ```shell
 set colorscheme simple
+```
+To set micro to use spaces not tabs:
+```shell
+set tabstospaces true
+```
+To set micro to use a tab size of 2 spaces:
+```shell
+set tabsize 2
+```
+To set micro to use put a new line at the end of each file (as Unix standard):
+```shell
+set eofnewline true
 ```
