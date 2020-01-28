@@ -105,3 +105,5 @@ export VISUAL="$EDITOR"
 alias o="xdg-open"
 # Add confirmation message to rm.
 alias rm="rm -i"
+# Run full apt updating procedure and cleanup
+alias apt-full="sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt autoclean"
