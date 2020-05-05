@@ -20,7 +20,7 @@ to do the following:
 * Get my preferred .zshrc file.
 * Apply changes.
 
-### Colour scheme in micro commands
+### `micro` commands for continued customisation
 Run micro, press Ctrl+E to enter a command and enter the following:
 
 To set micro to use your standard shell colour scheme:
@@ -38,4 +38,10 @@ set tabsize 2
 To set micro to use put a new line at the end of each file (as Unix standard):
 ```shell
 set eofnewline true
+```
+
+### Enable clipboard usage
+`micro` uses `xclip` for clipboard management. Therefore to enable use of the clipboard, `xclip` must be installed. This can be done on debian-based systems with 
+```shell
+sudo apt install xclip
 ```
