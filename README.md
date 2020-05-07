@@ -45,3 +45,9 @@ set eofnewline true
 ```shell
 sudo apt install xclip
 ```
+
+## Additional
+My workflow also involves a number of other tools. The respective configuration repositories (similar to this) can be found below:
+* [tmux](https://github.com/jwblangley/tmux-config)
+* [vscode](https://github.com/jwblangley/vscode-config)
+* ~[atom](https://github.com/jwblangley/atom-config)~
