@@ -103,6 +103,8 @@ export VISUAL="$EDITOR"
 
 # Open file with default handler.
 alias o="xdg-open"
+# tmux shortcut
+alias t="tmux"
 # Add confirmation message to rm.
 alias rm="rm -i"
 # Run full apt updating procedure and cleanup
