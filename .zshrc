@@ -101,6 +101,8 @@ export VISUAL="$EDITOR"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# clear shortcut
+alias c="clear"
 # Open file with default handler.
 alias o="xdg-open"
 # tmux shortcut
