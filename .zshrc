@@ -72,6 +72,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Disable auto pushd
+unsetopt autopushd
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
