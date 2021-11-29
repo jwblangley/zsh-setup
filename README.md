@@ -1,4 +1,5 @@
 # Set up my preferred terminal environment for linux (Ubuntu).
+## Archived and absorbed into https://github.com/jwblangley/dotfiles
 
 ## Installation
 Run the following command:
